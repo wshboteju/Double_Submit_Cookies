@@ -13,7 +13,7 @@ if (isset($_POST['username']) && isset($_POST['password'])){
 }else {
 
   echo '<div class="alert alert-danger">
-  username or password is wrong!
+  Check username and password
 </div>';
 }
 
@@ -39,7 +39,7 @@ exit();
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<title>Login V3</title>
+	<title>Login </title>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 <!--===============================================================================================-->	
@@ -68,7 +68,7 @@ exit();
 <body>
 	
 	<div class="limiter">
-		<div class="container-login100" style="background-image: url('images/bg-01.jpg');">
+		<div class="container-login100" >
 			<div class="wrap-login100">
 				<form class="login100-form validate-form" method="post" action="index.php">>
 					<span class="login100-form-logo">
@@ -89,12 +89,7 @@ exit();
 						<span class="focus-input100" data-placeholder="&#xf191;"></span>
 					</div>
 
-					<!--<div class="contact100-form-checkbox">
-						<input class="input-checkbox100" id="ckb1" type="checkbox" name="remember-me">
-						<label class="label-checkbox100" for="ckb1">
-							Remember me
-						</label>
-					</div>-->
+
 
 					<div class="container-login100-form-btn">
 						<button class="login100-form-btn">
@@ -102,11 +97,6 @@ exit();
 						</button>
 					</div>
 
-					<!--<div class="text-center p-t-90">
-						<a class="txt1" href="#">
-							Forgot Password?
-						</a>
-					</div>-->
 				</form>
 			</div>
 		</div>
